@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    25deg,
+    #1c1c26,
+    #1e202f 11%,
+    #1e2438 23%,
+    #1c2740 36%,
+    #172c4a 48%,
+    #19336b 61%,
+    #323486 74%,
+    #5b2f9d 87%,
+    #870fa9
+  );
+}
