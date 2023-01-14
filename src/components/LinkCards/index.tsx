@@ -8,7 +8,7 @@ const LinkCard: FC<Link> = ({ title, href, image }) => {
       href={href} 
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center  p-1 w-full rounded-md hover:scale-105 transition-all  bg-gray-100  max-w-md"
+      className="flex items-center shadow-md p-2 w-full rounded-sm hover:scale-105 transition-all  bg-gray-100  max-w-2xl"
     >
       <div className="flex text-center w-full ">
         <div className="w-10 h-10">

@@ -1,8 +1,8 @@
 export interface Data {
-    name: string
+    name?: string
     avatar?: string
-    links: Link[]
-    socials: Social[]
+    links?: Link[]
+    socials?: Social[]
   }
   
   export interface Link {
